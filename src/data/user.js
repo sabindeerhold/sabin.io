@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by sabin simkhada",
+		title: "Sabin Simkhada | Portfolio",
 		name: "Sabin Simkhada",
 		email: "sbnsim81@gmail.com",
 		logo: "https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/355085933_1957062521318410_4623162743882507697_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3e11qu18wlQAX8b2Cb4&_nc_ht=scontent.fktm10-1.fna&oh=00_AfDyOsxcN52Vs-oYspMaV7xAoN0CflXQf__QNCa6YtqhLQ&oe=65539811",
