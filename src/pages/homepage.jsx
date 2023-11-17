@@ -94,7 +94,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/354957534_1957062527985076_6212595454507229470_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kUuxV8_3g80AX_XB6ti&_nc_ht=scontent.fktm10-1.fna&oh=00_AfAp0cyjBLwFLHXRxcpxhB02EaQc1L0YyR5kbbjZktQW_g&oe=6553C686"
+											src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/354957534_1957062527985076_6212595454507229470_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=713TU94W7BoAX_EPQtU&_nc_ht=scontent.fktm10-1.fna&oh=00_AfA5ro_qnF2_0Bwv6alD2vMyVPvbZQ3uX11T488VyYPF7g&oe=655BAF86"
 											alt="about"
 											className="homepage-image"
 										/>
