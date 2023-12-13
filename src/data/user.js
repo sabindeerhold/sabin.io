@@ -15,26 +15,27 @@ const INFO = {
 	},
 
 	homepage: {
-		title:"Mobile & Website Developer | Data Analyst ",
+		title: "Mobile & Website Developer | Data Analyst ",
 		description:
 			"I am a Full Stack developer with expertise in miltiple platforms. I have experience in building scalable, secure and reliable web and mobile applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
-		title: "I’m Sabin Simkhada from Nepal, where I am passionate to work in simple and complex Projects.",
+		title: "👋 I’m Sabin Simkhada.",
+		welcome: 'Welcome to my portfolio! I am a passionate software engineer dedicated to crafting innovative solutions that drive technological advancement. With a foundation built on Engineering and Information Technology, Specializing in [Java, Kotlin, Flutter, React Native, MERN Stack, Data Visualization, ETL and ongoing].',
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"From architecting robust systems to implementing elegant algorithms, I'm dedicated to harnessing technology's power to transform ideas into reality. My portfolio showcases a collection of projects that highlight my professional works. Let's embark on a coding adventure together! Whether it's revolutionizing user experiences or optimizing systems, I'm eager to collaborate on projects that push boundaries and shape the future of technology.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible in developing the best Applications with a new technology",
+		title: "Exploring Depths: A Dive into My Research Articles",
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 
 	projects: [
 		{
-			title: "Instride Health- Flutter(Web and Mobile)",
+			title: "Instride Health",
 			description:
 				"A Mobile Application built to tackle chronic depression and anxiety-related problems especially targeted teenagers. The user of the application will be able to call their providers and respective caregivers (parents) will be able to view assignments and tasks given by the practitioner. The application is built with Flutter with Golang as the backend.",
 			logo: "https://i0.wp.com/instride.health/wp-content/uploads/2021/11/InStride_Health_Video_Thumbnail.png?fit=720%2C405&ssl=1",
@@ -43,7 +44,7 @@ const INFO = {
 		},
 		{
 			title: "Deerhold",
-			description:'Deerhold is a healthcare product, services and analytics company based in Lexington, Massachusetts, USA with a major offshore office in Nepal and development center in Tokyo, Japan. Our strong network of hundreds of software engineers spans these three locations. This talented pool of resources collectively provides you with an unparalleled range of solutions and services around the clock.',
+			description: 'Deerhold is a healthcare product, services and analytics company based in Lexington, Massachusetts, USA with a major offshore office in Nepal and development center in Tokyo, Japan. Our strong network of hundreds of software engineers spans these three locations. This talented pool of resources collectively provides you with an unparalleled range of solutions and services around the clock.',
 			logo: "https://www.deerhold.com/static/logo-2d8fc8ea6d12bcf33a5fc0e8a090cc32.png",
 			linkText: "View Project",
 			link: "https://www.deerhold.com/",
@@ -62,7 +63,7 @@ const INFO = {
 			title: "Detail Education",
 			description:
 				"A React-based abroad study project that showcases the different universities and lists them where students can view and book an appointment with the visa officer at an available time. The idea is to provide a platform to get online visa guidance and help interested students search for the best academic providers all over the world.",
-			logo: "https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/350141061_764077301878847_2580859100842065172_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ipm3hBwF0xIAX-mkUZf&_nc_ht=scontent.fktm10-1.fna&oh=00_AfCDkKmtsyWafiYdOqio-wBmA5ISXwqbUBgHyTZ2xjtEQQ&oe=6553C9AE",
+			logo: "https://scontent.fktm10-1.fna.fbcdn.net/v/t1.6435-9/120092999_365721351479994_189362655123213221_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=FMDs4euoT1sAX_MHm10&_nc_ht=scontent.fktm10-1.fna&oh=00_AfC9t4G_aeWSLZEQIaHYI4MWoH9jrQ8c1exWeAF7TK_S-Q&oe=65A1392C",
 			linkText: "View Project",
 			link: "https://detaileducation.edu.np/",
 		},
@@ -76,7 +77,7 @@ const INFO = {
 			link: "https://play.google.com/store/apps/details?id=com.silkinv.icash&hl=en&gl=US",
 		},
 
-		
+
 	],
 };
 

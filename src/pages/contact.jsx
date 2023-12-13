@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Socials from "../components/about/socials";
+import LiveChat from "../pages/livechat";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -32,13 +33,12 @@ const Contact = () => {
 				<NavBar active="contact" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
-						<div className="contact-logo">
-						</div>
+						<div className="contact-logo"></div>
 					</div>
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Let's Connect: Reach Out and Get in Touch
 						</div>
 
 						<div className="subtitle contact-subtitle">
@@ -82,6 +82,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
+			<LiveChat />
 		</React.Fragment>
 	);
 };

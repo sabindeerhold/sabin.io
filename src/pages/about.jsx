@@ -32,8 +32,7 @@ const About = () => {
 				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
-						<div className="about-logo">
-						</div>
+						<div className="about-logo"></div>
 					</div>
 
 					<div className="about-container">
@@ -41,6 +40,10 @@ const About = () => {
 							<div className="about-right-side">
 								<div className="title about-title">
 									{INFO.about.title}
+								</div>
+
+								<div className="subtitle about-subtitle">
+									{INFO.about.welcome}
 								</div>
 
 								<div className="subtitle about-subtitle">

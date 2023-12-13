@@ -21,7 +21,11 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
+import SkillBars from "../pages/skillsbar";
+import LiveChat from "../pages/livechat";
+
 import "./styles/homepage.css";
+import "./styles/skillsbar.css";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -58,8 +62,6 @@ const Homepage = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
-
-
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -74,19 +76,17 @@ const Homepage = () => {
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-logo-container">
-						
-					</div>
+					<div className="homepage-logo-container"></div>
 
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									 {INFO.homepage.title}
+									{INFO.homepage.title}
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									<SkillBars />
 								</div>
 							</div>
 
@@ -94,7 +94,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/354957534_1957062527985076_6212595454507229470_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=713TU94W7BoAX_EPQtU&_nc_ht=scontent.fktm10-1.fna&oh=00_AfA5ro_qnF2_0Bwv6alD2vMyVPvbZQ3uX11T488VyYPF7g&oe=655BAF86"
+											src="https://media.licdn.com/dms/image/C5622AQFGJjFVwXxygQ/feedshare-shrink_1280/0/1649158823809?e=1702512000&v=beta&t=AvAjHn5UfERhVQ7SZBNGqYVdJ-17Z8FwQP3yry40B3o"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -155,7 +155,7 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href='https://drive.google.com/drive/folders/16fgFE8qRGSaJhIuHC9bUkGpArmRnHB0f'
+								href="https://drive.google.com/drive/folders/16fgFE8qRGSaJhIuHC9bUkGpArmRnHB0f"
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -199,6 +199,7 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+			<LiveChat />
 		</React.Fragment>
 	);
 };
