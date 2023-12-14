@@ -8,7 +8,6 @@ import LiveChat from "../pages/livechat";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
 import "./styles/contact.css";
 
 const Contact = () => {
@@ -20,6 +19,7 @@ const Contact = () => {
 
 	return (
 		<React.Fragment>
+			<LiveChat />
 			<Helmet>
 				<title>{`Contact | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -82,7 +82,6 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-			<LiveChat />
 		</React.Fragment>
 	);
 };

@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
+import { motion } from "framer-motion";
 
 let ArticleStyle = styled.div``;
 
@@ -18,6 +19,11 @@ const ReadArticle = () => {
 	let { slug } = useParams();
 
 	const article = myArticles[slug - 1];
+
+	const expandContent = (blogId) => {
+		// Function to expand blog content, toggle expanded state, etc.
+		// Implement based on your application's logic
+	};
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -40,8 +46,7 @@ const ReadArticle = () => {
 
 				<div className="content-wrapper">
 					<div className="read-article-logo-container">
-						<div className="read-article-logo">
-						</div>
+						<div className="read-article-logo"></div>
 					</div>
 
 					<div className="read-article-container">

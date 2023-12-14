@@ -9,6 +9,7 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Footer from "../components/common/footer";
@@ -26,6 +27,7 @@ import LiveChat from "../pages/livechat";
 
 import "./styles/homepage.css";
 import "./styles/skillsbar.css";
+import img1 from "../data/img1.jpeg";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -94,7 +96,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://media.licdn.com/dms/image/C5622AQFGJjFVwXxygQ/feedshare-shrink_1280/0/1649158823809?e=1702512000&v=beta&t=AvAjHn5UfERhVQ7SZBNGqYVdJ-17Z8FwQP3yry40B3o"
+											src={img1}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -151,6 +153,16 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>

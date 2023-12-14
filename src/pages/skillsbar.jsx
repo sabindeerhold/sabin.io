@@ -4,6 +4,7 @@ import { useSpring, animated } from "react-spring";
 const SkillBars = () => {
 	const languages = [
 		{ name: "Java / C / C++", level: "Intermediate" },
+		{ name: "Dart", level: "Expert" },
 		{ name: "JavaScript / TypeScript)", level: "Intermediate" },
 		{ name: "Swift / Kotlin", level: "Advanced" },
 		{ name: "Go", level: "Advanced" },

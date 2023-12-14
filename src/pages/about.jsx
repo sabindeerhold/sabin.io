@@ -9,6 +9,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import img2 from "../data/img2.jpeg";
 
 const About = () => {
 	useEffect(() => {
@@ -55,7 +56,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="https://media.licdn.com/dms/image/C5622AQFGJjFVwXxygQ/feedshare-shrink_1280/0/1649158823809?e=1702512000&v=beta&t=AvAjHn5UfERhVQ7SZBNGqYVdJ-17Z8FwQP3yry40B3o"
+											src={img2}
 											alt="about"
 											className="about-image"
 										/>
